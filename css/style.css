@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul > li > a{
+    text-decoration: none;
+}
+ul > li {
+    list-style-type: none;
+}
+.clearfix::before,
+.clearfix::after{
+    display: block;
+    content:'';
+    clear:both;
+}
+img{
+    vertical-align: top;
+    border:0;
+}
+.wrap{
+    width:1500px;
+    margin:0 auto;
+}
+header{
+    width:100%;
+    height:100px;
+    position:relative;
+    z-index: 10;
+}
+header > nav{
+    width:600px;
+    float:left;
+    padding-left: 3%;
+    padding-top:2%;
+}
+header > nav > .menu{
+    position:absolute;
+    width: 90%;
+    font-size: 12px;
+    text-align: center;
+    
+}
+header > nav > .menu >  li{
+    position:relative;
+    float: left;
+    margin-left: 3px;
+    width:67px;
+}
+header > nav > .menu > li > a{
+    display: block;
+    width:100%;
+    color:#333333;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+}
+header > nav > .menu > li:hover > a{
+    color:red;
+}
+header > nav > .menu > li > .sub{
+    position: absolute;
+    width:100%;
+    border:1px solid black;
+    background:#ffffff;
+    display: none;
+
+}
+header > nav > .menu > li > .sub > li{
+    width:100%;
+    line-height: 35px;
+}
+header > nav > .menu > li > .sub > li > a{
+    display: block;
+    width:100%;
+    color:#3a3a3a;
+}
+header > h1{
+    float:left;
+    padding-top:2%;
+    padding-left:4%;
+}
+header > aside{
+    width:400px;
+    float:right;
+    padding-right: 10%;
+}
+header > aside > ul{
+    padding-top:10%;
+}
+header > aside > ul > li{
+    float:left;
+    margin-left:15px;
+    font-size: 15px;
+}
+header > aside > ul > li > a{
+    color:#333333;
+    font-weight: bold;
+}
+
+
+.slide{
+    width: 100%;
+    height:600px;
+    float:left;
+    position: relative;
+}
+.slide > .slide_all{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+}
+.slide > .slide_all > li{
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+}
+.contents > .con1{
+    padding-top:13%;
+    float:left;
+    width: 100%;
+    height:400px;
+}
+.contents > .con1 > p{
+    text-align: center;
+    font-weight: bold;
+}
+.contents > .con1 > ul{
+    padding-top:3%;
+}
+.contents > .con1 > ul > li{
+    float:left;
+    margin-left: 2%;
+}
+.contents > .con1 > ul > li > a > img{
+    width:220px;
+    height:220px;
+}
+.contents > .con1 > table{
+    padding-top:5px;
+    margin-left:30px;
+}
+.contents > .con1 > .con1_hr{
+    margin-top:30px;
+    color:#ddd;
+}
+.contents > .con2{
+    float: left;
+    width:100%;
+    height:940px;
+}
+.contents > .con2 > a > img{
+    padding-top:5%;
+    padding-left:2%;
+}
+.contents > .con2 > ul{
+    padding-top:3%;
+    padding-left:1%;
+}
+.contents > .con2 > ul > li{
+    float:left;
+    margin-left:17px;
+}
+.contents > .con3{
+    float:left;
+    width:100%;
+    height:80px;
+    background:#eee;
+}
+.contents > .con3 > img{
+    float:left;
+    padding-top:12px;
+    margin-left:31%;
+    width:270px;
+    height:55px;
+}
+.contents > .con3 > p{
+    float:left;
+    padding-top:27px;
+    font-size: 18px;
+}
+.contents > .con3 > a{
+    float:left;
+    padding-top:30px;
+    padding-left: 3%;
+    text-decoration: none;
+    color:#333333;
+}
+.contents > .con4{
+    float:left;
+    width:100%;
+    height:520px;
+    background:#ddd;
+    text-align: center;
+}
+
+.contents > .con4 > p{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.contents > .con4 > ul{
+    padding-top: 30px;
+    padding-left: 35px;
+}
+
+.contents > .con4 > ul > li{
+    float:left;
+    margin-left: 10px;
+}
+
+.contents > .con5{
+    float:left;
+    width:100%;
+    height:500px;
+}
+.contents > .con5 > p{
+    padding-top:5%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contents > .con5 > ul{
+    padding-left:25%;
+    padding-top:5%;
+}
+.contents > .con5 > ul > li{
+    float:left;
+    margin-left: 5%;
+}
+.contents > .con5 > ul > li > a > img{
+    width:180px;
+    height:180px;
+}
+.contents > .con5 > ul > li > a:hover{
+    opacity: 0.7;
+}
+.contents > .con5 > ul > li > a{
+    color:#333333;
+    text-align: center;
+    margin-top:10px;
+}
+.contents > .con6{
+    position:relative;
+    float:left;
+    width: 100%;
+    height:600px;
+}
+.contents > .con6 > p{
+    padding-top:3%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contents > .con6 > ul{
+    position:absolute;
+    left:23%;
+    top:30%;
+    width:800px;
+}
+.contents > .con6 > ul > li{
+    line-height: 40px;
+    font-size: 17px;
+}
+.contents > .con6 > ul > li > .day{
+    position:absolute;
+    right:0;
+    color:#aaa;
+}
+.btn{
+    position:relative;
+    width:250px;
+    height:50px;
+    left:42%;
+    top:60%;
+    background:#ffffff;
+    border:1px solid #aaa;
+}
+.btn:hover{
+    background:gray;
+    cursor: pointer;
+}
+footer{
+    float:left;
+    width:100%;
+    height:430px;
+    background:#ddd;
+}
+footer > h2{
+    float:left;
+    padding-top:4%;
+    padding-left: 10%;
+}
+footer > nav{
+    width:900px;
+    padding-top:70px;
+    padding-left:30%;
+    font-size: 13px;
+}
+footer > nav > .menu{
+    width:100%;
+}
+footer > nav > .menu > li{
+    float:left;
+    width:25%;
+}
+footer > nav > .menu > li > a{
+    color:#333333;
+}
+a{
+    color:#333333;
+}
+footer > .footermain > .sns{
+    padding-top: 30px;
+    padding-left:10%;
+    float:left;
+}
+footer > .footermain > .sns > li{
+    float:left;
+}
+footer > .footermain{
+    padding-top:12%;
+}
+footer > .footermain > li{
+    text-align:center;
+    font-size: 13px;
+}
